@@ -1398,8 +1398,8 @@ canvas,
   margin: 1rem 0;
   padding: 0;
   padding-top: 1.4rem;
-  background: #263238;
-  color: #eff;
+  background: #0f111a;
+  color: #8f93a2;
   font-size: 14px;
   line-height: 20px;
 }
@@ -1409,9 +1409,9 @@ figure.highlight {
 blockquote {
   margin: 0;
   padding: 0.1rem 0.8rem;
-  border-left: 0.2rem solid #2d2d2d;
+  border-left: 0.2rem solid #49b1f5;
   color: #6a737d;
-  background-color: #818181;
+  background-color: #e9f5fe;
 }
 blockquote p {
   margin: 0 !important;
@@ -1438,7 +1438,7 @@ blockquote footer cite:before {
 .article-container pre code {
   padding: 0;
   background: none;
-  color: #eff;
+  color: #8f93a2;
   text-shadow: none;
 }
 .article-container figure.highlight:after {
@@ -1447,7 +1447,7 @@ blockquote footer cite:before {
   z-index: 0;
   min-width: 100%;
   height: 1.4rem;
-  background: #1c2429;
+  background: #06060a;
   content: "";
 }
 .article-container .highlight {
@@ -1460,8 +1460,8 @@ blockquote footer cite:before {
   border: none;
 }
 .article-container .highlight .line::selection {
-  background: rgba(128,203,196,0.125);
-  color: #eff;
+  background: rgba(113,124,180,0.314);
+  color: #8f93a2;
 }
 .article-container .highlight table {
   position: relative;
@@ -1475,7 +1475,7 @@ blockquote footer cite:before {
   z-index: 0;
   width: 100%;
   height: 1.4rem;
-  background: #1c2429;
+  background: #06060a;
   content: "";
 }
 .article-container .highlight td {
@@ -1490,7 +1490,7 @@ blockquote footer cite:before {
   padding: 0.2em 0 0.2em 0.7rem;
   width: 100%;
   height: 1.4em;
-  color: #eff;
+  color: #8f93a2;
   font-size: 1em;
   line-height: 1em;
 }
@@ -1513,10 +1513,10 @@ blockquote footer cite:before {
 .article-container .highlight figcaption a {
   float: right;
   padding-right: 10px;
-  color: #eff;
+  color: #8f93a2;
 }
 .article-container .highlight figcaption a:hover {
-  border-bottom-color: #eff;
+  border-bottom-color: #8f93a2;
 }
 .article-container .highlight figcaption+table {
   margin-top: 1em;
@@ -1530,15 +1530,15 @@ blockquote footer cite:before {
 .article-container .highlight .gutter pre {
   padding-right: 0.5rem;
   padding-left: 0.5rem;
-  background-color: #263238;
-  color: #37474f;
+  background-color: #0f111a;
+  color: rgba(59,63,81,0.502);
   text-align: right;
 }
 .article-container .highlight .code pre {
   padding-right: 0.5rem;
   padding-left: 0.5rem;
   width: 100%;
-  background-color: #263238;
+  background-color: #0f111a;
 }
 .article-container .highlight .line {
   height: 1rem;
@@ -1568,11 +1568,11 @@ blockquote footer cite:before {
   color: #c792ea;
 }
 .article-container pre .comment {
-  color: #546e7a;
+  color: #464b5d;
 }
 .article-container pre .comment::selection {
-  background: rgba(128,203,196,0.125);
-  color: #eff;
+  background: rgba(113,124,180,0.314);
+  color: #8f93a2;
 }
 .article-container pre .variable,
 .article-container pre .attribute,
@@ -1600,15 +1600,15 @@ blockquote footer cite:before {
 .article-container pre .tag .name::selection,
 .article-container pre .css .class::selection,
 .article-container pre .css .pseudo::selection {
-  background: rgba(128,203,196,0.125);
-  color: #eff;
+  background: rgba(113,124,180,0.314);
+  color: #8f93a2;
 }
 .article-container pre .tag {
   color: #89ddff;
 }
 .article-container pre .tag::selection {
-  background: rgba(128,203,196,0.125);
-  color: #eff;
+  background: rgba(113,124,180,0.314);
+  color: #8f93a2;
 }
 .article-container pre .number,
 .article-container pre .preprocessor,
@@ -1624,15 +1624,15 @@ blockquote footer cite:before {
 .article-container pre .params::selection,
 .article-container pre .constant::selection,
 .article-container pre .command::selection {
-  background: rgba(128,203,196,0.125);
-  color: #eff;
+  background: rgba(113,124,180,0.314);
+  color: #8f93a2;
 }
 .article-container pre .built_in {
   color: #ffcb6b;
 }
 .article-container pre .built_in::selection {
-  background: rgba(128,203,196,0.125);
-  color: #eff;
+  background: rgba(113,124,180,0.314);
+  color: #8f93a2;
 }
 .article-container pre .ruby .class .title,
 .article-container pre .css .rules .attribute,
@@ -1658,8 +1658,8 @@ blockquote footer cite:before {
 .article-container pre .special::selection,
 .article-container pre .number::selection,
 .article-container pre .formula::selection {
-  background: rgba(128,203,196,0.125);
-  color: #eff;
+  background: rgba(113,124,180,0.314);
+  color: #8f93a2;
 }
 .article-container pre .keyword,
 .article-container pre .title,
@@ -1669,8 +1669,8 @@ blockquote footer cite:before {
 .article-container pre .keyword::selection,
 .article-container pre .title::selection,
 .article-container pre .css .hexcolor::selection {
-  background: rgba(128,203,196,0.125);
-  color: #eff;
+  background: rgba(113,124,180,0.314);
+  color: #8f93a2;
 }
 .article-container pre .function,
 .article-container pre .python .decorator,
@@ -1690,8 +1690,8 @@ blockquote footer cite:before {
 .article-container pre .perl .sub::selection,
 .article-container pre .javascript .title::selection,
 .article-container pre .coffeescript .title::selection {
-  background: rgba(128,203,196,0.125);
-  color: #eff;
+  background: rgba(113,124,180,0.314);
+  color: #8f93a2;
 }
 .article-container pre .tag .attr,
 .article-container pre .javascript .function {
@@ -1699,8 +1699,8 @@ blockquote footer cite:before {
 }
 .article-container pre .tag .attr::selection,
 .article-container pre .javascript .function::selection {
-  background: rgba(128,203,196,0.125);
-  color: #eff;
+  background: rgba(113,124,180,0.314);
+  color: #8f93a2;
 }
 #aside_content {
   width: 25%;
@@ -2302,7 +2302,7 @@ blockquote footer cite:before {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #2d2d2d !important;
+  background: #eee !important;
   -webkit-transform: scale(0);
   -moz-transform: scale(0);
   -o-transform: scale(0);
@@ -2532,7 +2532,7 @@ blockquote footer cite:before {
   position: fixed;
   top: -60px;
   z-index: 101;
-  background-color: #fff;
+  background: rgba(255,255,255,0.8);
   -webkit-box-shadow: 0 5px 6px -5px rgba(133,133,133,0.6);
   box-shadow: 0 5px 6px -5px rgba(133,133,133,0.6);
   -webkit-transition: -webkit-transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
@@ -3868,7 +3868,7 @@ img:hover {
   font-weight: bold;
   font-size: 0.8rem;
   line-height: 1.4rem;
-  color: #eff;
+  color: #8f93a2;
   left: 30px;
   z-index: 1;
   cursor: pointer;
@@ -3876,7 +3876,7 @@ img:hover {
 .code-expand {
   position: absolute;
   top: 0;
-  color: #eff;
+  color: #8f93a2;
   padding: 7px 10px;
   z-index: 1;
   cursor: pointer;
@@ -3908,7 +3908,7 @@ img:hover {
   top: 0;
   right: 0;
   z-index: 1;
-  background: #1c2429;
+  background: #06060a;
   color: #89ddff;
   opacity: 0;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
@@ -4456,15 +4456,15 @@ img:hover {
   transition: all 0.2s ease-in-out;
 }
 #sidebar .sidebar-toc .toc-link.active {
-  border-right-color: #3840ea;
-  background: #7a7ff1;
+  border-right-color: #242424;
+  background: #2d2d2d;
   color: #fff;
 }
 #sidebar .sidebar-toc__progress {
   position: relative;
   margin-top: -0.3rem;
   padding-left: 0.6rem;
-  color: #7a7ff1;
+  color: #2d2d2d;
 }
 #sidebar .sidebar-toc__progress .progress-notice {
   margin-right: 0.4rem;
